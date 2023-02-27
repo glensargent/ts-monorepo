@@ -1,0 +1,16 @@
+{
+  "name": "@ts-monorepo/eslint-config-typescript",
+  "version": "1.0.0",
+  "main": "eslint-config-typescript.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.8.7",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
