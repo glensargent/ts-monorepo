@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "workspaces": [
+    "src/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint --parallel",
+    "fix": "turbo run fix --parallel --continue"
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "turbo": "1.5.4"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@6.24.3"
+}
