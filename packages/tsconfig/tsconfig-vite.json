@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig-base.json",
+  "Display": "Vite",
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["vite/client"],
+    "esModuleInterop": false,
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "vueCompilerOptions": {
+      "experimentalDisableTemplateSupport": true
+    }
+  }
+}
