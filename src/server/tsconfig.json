@@ -1,0 +1,6 @@
+{
+  "extends": "@ts-monorepo/tsconfig/tsconfig-base.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}

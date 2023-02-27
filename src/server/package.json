@@ -1,0 +1,29 @@
+{
+  "name": "@ts-monorepo/server",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "build": "node build.js",
+    "lint": "eslint .",
+    "fix": "pnpm run lint --fix"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@ts-monorepo/eslint-config-typescript": "*",
+    "@ts-monorepo/tsconfig": "*",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.6.1",
+    "esbuild": "^0.15.10",
+    "eslint": "^8.18.0",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
